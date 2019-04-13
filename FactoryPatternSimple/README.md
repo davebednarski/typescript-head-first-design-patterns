@@ -1,0 +1,1 @@
+# Simple Factory Pattern
