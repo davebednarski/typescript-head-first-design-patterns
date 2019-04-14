@@ -1,1 +1,0 @@
-# Template Pattern
