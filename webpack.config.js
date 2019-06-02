@@ -6,6 +6,7 @@ module.exports = {
     entry: {
         './AdapterPattern/dist/bundle': './AdapterPattern/src/index.ts',
         './CommandPattern/dist/bundle': './CommandPattern/src/index.ts',
+        './CompositePattern/dist/bundle': './CompositePattern/src/index.ts',
         './DecoratorPattern/dist/bundle': './DecoratorPattern/src/index.ts',
         './FacadePattern/dist/bundle': './FacadePattern/src/index.ts',
         './FactoryPattern/dist/bundle': './FactoryPattern/src/index.ts',
