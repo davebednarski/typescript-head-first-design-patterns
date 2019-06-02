@@ -3,9 +3,10 @@ import DuckSimulator from "./DuckSimulator";
 let duck = new DuckSimulator();
 let simulations:string[] = [];
 
-simulations.push(duck.simulationMallardTalking());
-simulations.push(duck.simulateMallardQuack());
-simulations.push(duck.simulateMallardFly());
+simulations.push(duck.simulateTalking());
+simulations.push(duck.simulateQuack());
+simulations.push(duck.simulateFly());
+simulations.push(duck.simulateChangeBehaviorDynamically());
 
 // UI Display
 const appDiv: HTMLElement = document.getElementById('app');
